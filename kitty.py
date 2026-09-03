@@ -1,10 +1,2 @@
-i = 3
-while i != 0:
+for i in range(3):
     print("meow")
-    i = i - 1
-
-say = input("What do you want to say 50 times?: ")
-count = 0
-while count < 50:
-    print(say)
-    count = count + 1
